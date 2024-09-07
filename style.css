@@ -7,7 +7,7 @@
 
 main {
     width: 100vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: url(dinesh_mma.png) center center / cover fixed no-repeat;
     /* background-image: url(dinesh_mma.png); */
     /* background-position:center;
@@ -28,7 +28,7 @@ nav {
     z-index: 1000;
     width: 100vw;
     height: 10vh;
-    background-color: rgb(117, 62, 62);
+    background-color: rgba(255, 255, 255, 0.949);
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.563);
 }
 .image-slideshow {
@@ -47,22 +47,22 @@ nav {
 
 }
 .info{
-     background-color: white;
+    background-color: white;
     padding-top: 100px;
     width: 100%;
-    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .info h1{
-    
+    /* background-color: red; */
     font-size: 80px;
 }
 .info .para{
     padding: 20px 15vw;
     font-size: 1.9rem;
+    /* background-color: #1c96e8; */
 }
 ul{
     width: 100%;
@@ -88,7 +88,7 @@ ul li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     /* background-color: transparent; */
     /* background-color: #1c96e88a; */
 }
@@ -104,7 +104,7 @@ ul li:hover{
 .videos{
     width: 100%;
     
-    background-color: green;
+    background-color: white;
     padding: 2% 5%;
     display: flex;
     justify-content:center;
