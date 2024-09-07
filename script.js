@@ -5,7 +5,7 @@ window.onscroll = function(){
 };
 
 function scrollFunction(){
-    if(document.body.scrollTop >50 || document.documentElement.scrollTop >50){
+    if(document.body.scrollTop >800 || document.documentElement.scrollTop >800){
         back_to_top.style.display = "block";
     }
     else{
